@@ -8,13 +8,18 @@ make sure you have these requirements:
 * pipenv
  
 
-1. use ngrok to test
+1. use ngrok to port forwarding
 ```
 ngrok run http 5000
 ```
-2. set up telegram bot
+2. set up
+setup telegram api
 ```
 https://api.telegram.org/bot{bot_token}/setWebhook?url=https://{url}/hook
+```
+setup config.ini
+```
+ACCESS_TOKEN = {bot_token}
 ```
 3. run
 ```
