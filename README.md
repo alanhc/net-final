@@ -7,13 +7,14 @@ make sure you have these requirements:
 * docker
 * pipenv
  
-1. set up telegram bot
-```
-https://api.telegram.org/bot{bot_token}/setWebhook?url=https://{url}/hook
-```
-2. use ngrok to test
+
+1. use ngrok to test
 ```
 ngrok run http 5000
+```
+2. set up telegram bot
+```
+https://api.telegram.org/bot{bot_token}/setWebhook?url=https://{url}/hook
 ```
 3. run
 ```
