@@ -18,5 +18,6 @@ https://api.telegram.org/bot{bot_token}/setWebhook?url=https://{url}/hook
 ```
 3. run
 ```
+pipenv install
 pipenv run python main.py
 ```
