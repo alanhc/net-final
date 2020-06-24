@@ -17,11 +17,11 @@ setup telegram api
 ```
 https://api.telegram.org/bot{bot_token}/setWebhook?url=https://{url}/hook
 ```
-setup config.ini
+3. setup config.ini
 ```
 ACCESS_TOKEN = {bot_token}
 ```
-3. run
+4. run
 ```
 pipenv install
 pipenv run python main.py
