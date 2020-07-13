@@ -8,7 +8,7 @@ make sure you have these requirements:
 * pipenv
 Clone this project
 ```
-docker build -t friendlyhello .
+git clone https://github.com/alanhc/net-final.git
 ```
 Build a docker env
 ```
