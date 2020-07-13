@@ -6,8 +6,14 @@
 make sure you have these requirements:
 * docker
 * pipenv
- 
-
+Clone this project
+```
+docker build -t friendlyhello .
+```
+Build a docker env
+```
+docker build -t friendlyhello .
+```
 1. use ngrok to port forwarding
 ```
 ngrok run http 5000
