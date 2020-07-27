@@ -6,6 +6,7 @@
 make sure you have these requirements:
 * docker
 * pipenv
+
 Clone this project
 ```
 git clone https://github.com/alanhc/net-final.git
